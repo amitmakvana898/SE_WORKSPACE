@@ -6,7 +6,7 @@ Client                   :– A client is a device or application that requests 
 Server                   :– A server is a computer or system that provides services or information to clients.
 </li>
 <li>
-Desktop Apps                            Web Apps                       Mobile Apps
+    Desktop Apps                            Web Apps                         Mobile Apps
 * Installed directly,         *  Run through a web browser and,       * Designed specifically for, 
   on a computer or laptop.       do not require installation.           smartphones and tablets.
 * Can often work without,     *  Usually require an internet ,        * Can use device features such as the,
