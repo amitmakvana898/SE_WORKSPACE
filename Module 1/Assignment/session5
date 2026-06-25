@@ -1,11 +1,9 @@
 [1] Write the Git command for each: initialize a repo, stage all files, commit with a message, push to remote, pull latest changes.
-  =>1 git init
-    2 git add -A
-    3 git status
-    4 git commit -m "hello "
-    5 git remote add origin "  "
-    6 git push origin master
-    7 git pull origin main 
+  =>  Initialize a repository: git init
+      Stage all files: git add -A
+      Commit with a message: git commit -m "Your commit message"
+      Push to remote: git push origin main
+      Pull latest changes: git pull origin main 
 
 
 [2] What is the difference between git fetch and git pull? Answer in 2 lines.
