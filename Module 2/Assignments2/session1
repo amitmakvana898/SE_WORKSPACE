@@ -1,4 +1,4 @@
-1) Write a short paragraph in your own words defining what a 'program' is and give one real-life example from any app you use daily (like Instagram, Zomato, or Paytm).
+1. Write a short paragraph in your own words defining what a 'program' is and give one real-life example from any app you use daily (like Instagram, Zomato, or Paytm).
 
    A program is a set of instructions written in a programming language that tells a computer or mobile app what tasks to perform. Programs help devices solve problems and perform actions automatically.
 
@@ -7,13 +7,14 @@
 
 2. List three popular programming languages you have heard of, and for each, mention whether it is usually compiled, interpreted, or can be  Think of languages like Java, Python, and JavaScript.
 
-   Programming Language	                             Usually Compiled, Interpreted, or Both?
+   Programming Language	                              Usually Compiled, Interpreted, or Both?
    Java	                                             Compiled (to bytecode) and then interpreted/JIT compiled by the JVM (Both)
-   Python                                            Usually Interpreted
+   Python                                             Usually Interpreted
    JavaScript	                                       Usually Interpreted, though modern engines also use JIT compilation (Both)
 
 
-3.Draw a flowchart (on paper or using any online tool) for the process of booking a movie ticket on BookMyShow, starting from opening the app to receiving the booking confirmation.
+3. Draw a flowchart (on paper or using any online tool) for the process of booking a movie ticket on BookMyShow, starting from opening the app to receiving the booking confirmation.
+
 
 Start
   ↓
@@ -36,7 +37,7 @@ Receive Booking Confirmation
 End
 
 
-4) Write down the steps (as an algorithm, using simple numbered instructions) for ordering food on Swiggy — from opening the app to completing payment.
+4. Write down the steps (as an algorithm, using simple numbered instructions) for ordering food on Swiggy — from opening the app to completing payment.
 
    Start.
 
