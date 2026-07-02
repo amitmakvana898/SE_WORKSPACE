@@ -1,1 +1,64 @@
+1. Declare variables for a Flipkart product: productName (as a char), price (float), and rating (double). Assign sample values and print each variable with its data type.
 
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+    char productName[] = "Wireless Earbuds";
+    float price = 1499.99;
+    double rating = 4.5;
+
+    printf("productName (char array): %s\n", productName);
+    printf("price (float): %.2f\n", price);
+    printf("rating (double): %.1lf\n", rating);
+
+    getch();
+}
+
+2. Create a constant variable to store the GST rate (for example, 18%) and use it to calculate the final price of a Zomato order with a given base price.<br><br><em><strong>Constraint:</strong> The GST rate must not be changeable after its initial assignment.</em>
+
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+    const float GST = 0.18;
+    float basePrice = 500.0;
+    float finalPrice;
+
+    finalPrice = basePrice + (basePrice * GST);
+
+    printf("Base Price = Rs. %.2f\n", basePrice);
+    printf("Final Price = Rs. %.2f", finalPrice);
+
+    getch();
+}
+3. Write a program that stores your favorite Spotify playlist s name (string), total number of songs (int), and average song duration in minutes (float). Print all values in a single formatted sentence.
+
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+    char playlistName[] = "Chill Vibes";
+    int totalSongs = 25;
+    float avgDuration = 3.8;
+
+    printf("My favourite playlist is %s. It has %d songs and the average duration is %.1f minutes.",
+           playlistName, totalSongs, avgDuration);
+
+    getch();
+}
+
+4. Identify and correct the invalid variable names from this list: 1stPlayer, player_age, $score, total-marks, userName.<br><br><><strong>Hint:</strong> Apply standard variable naming rules for your programming language.
+  
+-----------------------------------------------------------
+| Given Name  | Valid/Invalid | Correct Name              |    
+| ------------| ------------  | -----------------------   |
+| 1stPlayer   | Invalid       | firstPlayer or player1    |
+| player_age  | Valid         | player_age                |
+| $score      | Invalid       | score                     |
+| total-marks | Invalid       | totalMarks or total_marks |
+| userName    | Valid         | userName                  |
+-----------------------------------------------------------
