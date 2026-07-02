@@ -1,1 +1,67 @@
+1) Write a short paragraph in your own words defining what a 'program' is and give one real-life example from any app you use daily (like Instagram, Zomato, or Paytm).
 
+   A program is a set of instructions written in a programming language that tells a computer or mobile app what tasks to perform. Programs help devices solve problems and perform actions automatically.
+
+   Real-life example: When I use Instagram, the app's program allows me to log in, view posts and reels, like photos, and send messages to friends.
+
+
+2. List three popular programming languages you have heard of, and for each, mention whether it is usually compiled, interpreted, or can be  Think of languages like Java, Python, and JavaScript.
+
+   Programming Language	                             Usually Compiled, Interpreted, or Both?
+   Java	                                             Compiled (to bytecode) and then interpreted/JIT compiled by the JVM (Both)
+   Python                                            Usually Interpreted
+   JavaScript	                                       Usually Interpreted, though modern engines also use JIT compilation (Both)
+
+
+3.Draw a flowchart (on paper or using any online tool) for the process of booking a movie ticket on BookMyShow, starting from opening the app to receiving the booking confirmation.
+
+Start
+  ↓
+Open BookMyShow App
+  ↓
+Select City
+  ↓
+Choose Movie
+  ↓
+Select Cinema and Show Time
+  ↓
+Choose Seats
+  ↓
+Proceed to Payment
+  ↓
+Make Payment
+  ↓
+Receive Booking Confirmation
+  ↓
+End
+
+
+4) Write down the steps (as an algorithm, using simple numbered instructions) for ordering food on Swiggy — from opening the app to completing payment.
+
+   Start.
+
+   Open the Swiggy app.
+
+   Log in to your account.
+
+   Enter or confirm your delivery location.
+
+   Search for a restaurant or food item.
+
+   Select the restaurant.
+
+   Choose the food items you want to order.
+
+   Add the items to the cart.
+
+   Review the order and delivery address.
+
+   Proceed to checkout.
+
+   Select a payment method.
+
+   Complete the payment.
+
+   Receive order confirmation.
+
+   End.
