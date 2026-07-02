@@ -1,1 +1,111 @@
+1. Create a simple IPL Fan Bot that takes your favorite IPL team name as input and uses if-else-if statements to print a unique cheer message for each team 
+   (e.g., 'Go Mumbai Indians!', 'Chennai Super Kings for the win!'). If the team is not recognized, print 'Team not found!'
 
+
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+    char team = 'R';
+
+    if (team == 'M')
+        printf(" Go Mumbai Indians!");
+    else if (team == 'C')
+        printf(" Go Chennai Super Kings!");
+    else if (team == 'R')
+        printf(" win Royal Challengers Bangalore!");
+    else if (team == 'K')
+        printf(" Go Kolkata Knight Riders!");
+    else
+        printf("Team not found!");
+
+    getch();
+}
+
+2. Build a Zomato-style food suggestion tool: take the user's preferred meal time ('breakfast', 'lunch', 'dinner', or 'snack') 
+   and use a switch-case statement to suggest a popular dish for that time. If the input doesn't match any meal, suggest 'Try some fruits!'.
+
+
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+    int menu =4 ;
+
+    switch (menu)
+    {
+
+case 1:
+printf("Breakfast: Poha");
+break;
+
+case 2:
+printf("Lunch: Rice");
+break;
+
+case 3:
+printf("Dinner: Paneer Butter Masala");
+break;
+
+case 4:
+printf("Snack: Sandwich");
+break;
+
+default:
+printf("Try something else ?");
+}
+
+getch();
+}
+
+
+3. Create a Flipkart discount calculator that asks the user for the total cart amount. Use nested if statements to check: if amount > 2000, apply 20% discount; else if amount > 1000, apply 10% discount; else, no discount.
+   Print the final amount to pay. Use nested ifs to check each discount slab.
+
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+    float amount = 2500, finalAmount;
+
+    if (amount > 1000)
+    {
+        if (amount > 2000)
+            finalAmount = amount - (amount * 20 / 100);
+        else
+            finalAmount = amount - (amount * 10 / 100);
+    }
+    else
+        finalAmount = amount;
+
+    printf("Final Amount to Pay = Rs. %f", finalAmount);
+
+    getch();
+}
+
+
+4.  Write a program that takes a user's age and checks eligibility for three things using if-else statements: if age >= 18, print 'Eligible for Driving License'; if age >= 21, also print 'Eligible for Credit Card'; if age >= 25, also print 'Eligible for Car Rental'
+    Print all applicable messages for the given age.
+
+    
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+    int age = 26;
+
+    if (age >= 18)
+        printf("Eligible for Driving License\n");
+
+    if (age >= 21)
+        printf("Eligible for Credit Card\n");
+
+    if (age >= 25)
+        printf("Eligible for Car Rental\n");
+
+    getch();
+}
